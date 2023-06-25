@@ -6,9 +6,10 @@ const marksSchema = new mongoose.Schema({
         type: String,
         required: true
     },
+    fac: String,
     name: String,
+    dateofDataInsertion: Date,
     marks: [String]
-},{versionKey: false
 })
 
 module.exports = marksSchema
