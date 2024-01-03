@@ -1,0 +1,5 @@
+-This website sends request to rpunit(exam result website for ZHCET)
+-The results are stored in MongoDB
+-Upload an excel file containg name and and roll numbers of students, it will automatically extract roll numbers and store the results from rpunit in
+the website's own database.
+-Now after having the results of whole class you can analyze the results!!
